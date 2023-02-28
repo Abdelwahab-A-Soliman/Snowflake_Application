@@ -1,7 +1,7 @@
 import streamlit
 import pandas as pd
 import snowflake.connector
-import urllib.error import URLERROR
+from urllib.error import URLERROR
 my_fruit_list = pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 #change index to fruit
 my_fruit_list = my_fruit_list.set_index("Fruit")
